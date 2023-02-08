@@ -1,0 +1,4 @@
+La prueba no mostro complejidad alguna, un dropdown se podia realizar de forma nativa sin librerias mientras se supiera manejar los eventos 
+clicks, asi que desde el inicio pense en hacer un hook personalizado destinado a verificar si un componente clickeado dentro o fuera 
+para asi brindar el estado de true o false con el que se iba a manejar el tema. Posteriormente traer los datos de las frutas con fetch
+luego de traer los datos desde el archivo principal, pasarlo como parametro al hook DropDown el cual se encargaria de contener todo el contenido visual y los eventos para poder cambiar el resultado del estado "value" y asi poder previsualizar el resultado una vez clickeado.
